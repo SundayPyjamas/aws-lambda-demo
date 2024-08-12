@@ -12,7 +12,7 @@ const FinancialModel = () => {
     setResult(null);
 
     try {
-      const response = await fetch('https://t5eu8p0x3l.execute-api.us-east-2.amazonaws.com/poc', {
+      const response = await fetch('YOUR_API_GATEWAT_URL', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
